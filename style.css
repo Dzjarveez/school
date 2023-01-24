@@ -35,15 +35,50 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .menu{
 	display: flex;
+	position: fixed;
+    width: 100%;
 	height: 70px;
 	font-size: 18px;
 	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
 	background-color: #f1f5f7;
-	gap: 10%;
+	gap: 5%;
+}
 
+.icon-logo{
+	display: block;
+	height: 50px;
+	margin: auto 0 auto 0;
 }
 
 .id-menu{
 	margin: auto 0 auto 0;
+}
+
+.id-menu a{
+	display: block;
+	color: #ffffff;
+	background-color: #88a6da;
+	padding: 16px 20px;
+	border-radius: 15px;
+}
+
+.first-stand{
+	height: 910px;
+	background-color: #c7ddff;
+}
+
+.second-stand{
+	height: 1090px;
+	background-color: #ffffff;
+}
+
+.third-stand{
+	height: 1090px;
+	background-color: #c8ff9b;
+}
+
+.fourth-stand{
+	height: 1090px;
+	background-color: #e2e2e2;
 }
