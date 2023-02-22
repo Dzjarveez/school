@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /*Обнуление*/
 *{
 	padding: 0;
@@ -42,20 +44,31 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
 	background-color: #f1f5f7;
-	gap: 5%;
+	gap: 20px;
 }
 
-.icon-logo{
+.menu__logo{
 	display: block;
 	height: 50px;
-	margin: auto 0 auto 0;
+	margin: auto 0;
 }
 
-.id-menu{
-	margin: auto 0 auto 0;
+.menu__list{
+	display: flex;
 }
 
-.id-menu a{
+.menu__list a{
+	display: block;
+	color: #000;
+	margin: auto 30px;
+}
+
+.menu__button-application{
+	margin: auto 10px;
+	
+}
+
+.menu__button-application a{
 	display: block;
 	color: #ffffff;
 	background-color: #88a6da;
